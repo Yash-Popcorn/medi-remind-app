@@ -28,6 +28,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-4cyuggpd.us.auth0.com"
+        }
+      ]
+    ]
   }
 }
